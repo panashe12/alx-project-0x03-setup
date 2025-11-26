@@ -1,9 +1,3 @@
-interface ButtonProps {
-  buttonLabel: string
-  buttonSize?: string
-  buttonBackgroundColor?: 'red' | 'blue' | 'orange' | 'green'
-  action?: () => void
-}
 
 
 const Button = ({ buttonLabel, buttonSize, buttonBackgroundColor, action }: ButtonProps) => {
